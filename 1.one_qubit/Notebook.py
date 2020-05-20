@@ -33,7 +33,7 @@ qasm_simulator = Aer.get_backend("qasm_simulator")
 
 # ### Q2. Make quantum state
 #
-# $$|\psi_2\rangle = \frac{3}{\sqrt{4}}|0\rangle + \frac{1}{\sqrt{4}}|1\rangle$$
+# $$|\psi_2\rangle = \sqrt{\frac{3}{4}}|0\rangle + \frac{1}{\sqrt{4}}|1\rangle$$
 
 
 
@@ -75,6 +75,6 @@ qasm_simulator = Aer.get_backend("qasm_simulator")
 # (2) $|1\rangle$  
 # (3) $|+\rangle$  
 # (4) $|-\rangle$  
-# (5) $\frac{3}{\sqrt{4}}|0\rangle + \frac{1}{\sqrt{2}}|1\rangle$
+# (5) $\sqrt{\frac{3}{4}}|0\rangle + \frac{1}{\sqrt{2}}|1\rangle$
 
 
