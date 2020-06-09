@@ -21,6 +21,13 @@ from qiskit import (QuantumCircuit,
                         Aer)
 import numpy as np
 
+from qiskit import transpile
+qc = QuantumCircuit(1)
+qc.initialize([1/np.sqrt(2), 1/np.sqrt(2)], 0)
+print(qc)
+new_qc = transpile(qc, basis_gates=["cx", "u3"])
+print(new_qc)
+
 
 # + code_folding=[]
 def show_result(qc):
